@@ -1,0 +1,27 @@
+//syntax for variables
+// var <name> : <Type> = <value>
+
+// Syntax for constants
+// val <name> : <Type> = <value>
+fun main(args: Array<String>){
+
+    var my_byte: Byte = 0
+    var my_short: Short = 22222
+    var my_int: Int = 69
+    var my_long: Long = 42069000
+    //all floats are doubles by default unless suffixed with "F"
+    var my_float: Float = 4.20F
+    var my_double: Double = 29.664
+    var my_boolean: Boolean = true
+    var my_char: Char = 'S'
+
+    println("my_byte = $my_byte");
+    println("my_short = $my_short");
+    println("my_int = $my_int");
+    println("my_long = $my_long");
+    println("my_float = $my_float");
+    println("my_double = $my_double");
+    println("my_boolean = $my_boolean");
+    println("my_char = $my_char");
+
+}
